@@ -210,8 +210,8 @@ fmt.Println(statePop)
 
 fmt.Println(statePop["Ca"])
 
-statePop["La"] = 9900
-delete(statePop,"Dv")
+statePop["La"] = 9900 // replacing value of'La'
+delete(statePop,"Dv") //removing key
 
 fmt.Println(statePop)
 
