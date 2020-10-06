@@ -250,8 +250,9 @@ fmt.Println(aStudent)
 
 //independent data sets
 anotherStudent := aStudent
-anotherStudent.studenID = 8744
+
 anotherStudent.name = "Eli Pery"
+anotherStudent.studenID = 8744
 fmt.Println(anotherStudent)
 
 
