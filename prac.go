@@ -218,6 +218,27 @@ fmt.Println(statePop)
 //if key not found will return 0 , 0 is not good result
 pop ,ok := statePop["Ka"] //if not found will return false
 fmt.Println(pop,ok)
-//
+
+
+//  structs 
+type Employee struct{
+					// positional syntax requires fields to be in the same order
+	empId int
+	Fname string
+	Lname string
+	dept []string
+}
+
+emp1 := Employee{ //requires fields to be in the same order
+	empId:1,
+	Fname:"Jack",
+	Lname:"Johnson",
+	dept: []string { "Receiving","Shipping","Inventory"},
+}
+
+fmt.Println(emp1)
+fmt.Println(emp1.Fname)
+fmt.Println(emp1.dept)
+
 
 }
