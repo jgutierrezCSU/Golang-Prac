@@ -223,15 +223,15 @@ fmt.Println(pop,ok)
 //  structs 
 type Employee struct{
 					// positional syntax requires fields to be in the same order
-	empId int
-	fname string
+	empId int 
+	fname string 
 	lname string
 	dept []string
 }
 
 emp1 := Employee{ //if you have field names , order does not matter. else it does
 				  // if you declare field in struck and dont declarfe field here,Its okay
-	empId:301,
+	empId:30891,
 	dept: []string { "Receiving","Shipping","Inventory"},
 	fname:"Jack",
 	lname:"Johnson",
@@ -250,7 +250,6 @@ fmt.Println(aStudent)
 
 //independent data sets
 anotherStudent := aStudent
-
 anotherStudent.name = "Eli Pery"
 anotherStudent.studenID = 8744
 fmt.Println(anotherStudent)
